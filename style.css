@@ -1,4 +1,9 @@
-.home {
+* {
+    color: #d1d0c5;
+    padding: 0 1rem;
+}
+
+.background {
     background-color: #323437;
 }
 
@@ -11,7 +16,6 @@
     font-size: 18px;
     padding: 0 .5rem;
     text-decoration: none;
-    color: #d1d0c5;
     text-transform: uppercase;
     transition: all 1s;
     font-family: 'Courier New', Courier, monospace;
@@ -21,6 +25,6 @@
     color: #e2b714;
 }
 
-#home-nav-link {
+#active-nav-link {
     color: #e2b714;
 }

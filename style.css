@@ -7,6 +7,10 @@
     background-color: #323437;
 }
 
+.min-height {
+    height: calc(100vh - 54px);
+}
+
 .navbar {
     text-align: center;
     padding-top: 2rem;
@@ -27,4 +31,23 @@
 
 #active-nav-link {
     color: #e2b714;
+}
+
+/* footer section styling */
+footer {
+    padding: 15px 23px;
+    font-size: 13px;
+    color: #646669 !important;
+    margin-bottom: -2rem;
+    text-align: center;
+}
+
+footer span {
+    color: #7b7c7c;
+    text-decoration: none;
+    padding: 0;
+}
+
+footer span a:hover {
+    text-decoration: underline;
 }

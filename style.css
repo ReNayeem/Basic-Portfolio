@@ -121,7 +121,21 @@
 
 /* work end  */
 
-/* footer section styling */
+/* contact start  */
+.contact {
+    margin-top: -1rem;
+}
+
+.contact-number span,
+.contact-email span {
+    padding: 0;
+}
+
+.contact-email {
+    margin: 0;
+}
+
+/* footer start */
 footer {
     padding: 15px 23px;
     font-size: 13px;
@@ -139,3 +153,5 @@ footer span {
 footer span a:hover {
     text-decoration: underline;
 }
+
+/* footer end  */

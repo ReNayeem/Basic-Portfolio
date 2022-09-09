@@ -97,6 +97,23 @@
     text-align: justify;
 }
 
+/* about end  */
+
+/* skills start  */
+.skills-h2 {
+    margin-top: -2rem !important;
+}
+
+.skills-h3 {
+    padding-bottom: 2rem;
+}
+
+.skills-image {
+    height: 220px;
+}
+
+/* skills end  */
+
 
 /* footer section styling */
 footer {

@@ -8,7 +8,7 @@
 }
 
 .min-height {
-    height: calc(100vh - 54px);
+    min-height: calc(100vh - 54px);
 }
 
 .navbar {
@@ -38,7 +38,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 60px);
+    min-height: calc(100vh - 106px);
 }
 
 .welcome-p-title {
@@ -55,6 +55,31 @@
     color: #e8e6e3;
     font-weight: 600;
 }
+
+/* home end  */
+
+/* about start  */
+.about-me {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 106px);
+}
+
+.about-me-flex {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    max-width: 1140px;
+}
+
+.my-image {
+    height: 400px;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
 
 /* footer section styling */
 footer {

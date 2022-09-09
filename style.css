@@ -67,17 +67,34 @@
     min-height: calc(100vh - 106px);
 }
 
+.about-me h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    margin: 0;
+}
+
+.about-me h3 {
+    margin: 0;
+    padding-top: .3rem;
+    color: #e2b714;
+}
+
 .about-me-flex {
     justify-content: center;
     align-items: center;
     display: flex;
-    max-width: 1140px;
+    max-width: 1040px;
 }
 
 .my-image {
-    height: 400px;
+    height: 300px;
     padding: 1rem;
     border-radius: 2rem;
+}
+
+.about-me h4 {
+    text-align: justify;
 }
 
 
